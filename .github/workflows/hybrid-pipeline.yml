@@ -21,7 +21,7 @@ jobs:
 
   # Este Job se ejecuta en TU infraestructura (Self-hosted)
   job-en-mi-servidor:
-    runs-on: [self-hosted, label-inexistente]
+    runs-on: [self-hosted, custom-runner]
     steps:
       - name: Checkout del codigo
         uses: actions/checkout@v4
